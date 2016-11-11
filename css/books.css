@@ -1,0 +1,84 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+div.title {
+	display: table;
+	content: "";
+	margin: auto
+	
+} 
+
+/* My stuff - Nav bar */
+div.nav{
+	text-align: center
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    display: inline-block
+}
+
+.nav li {
+    float: left
+}
+
+.nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+.nav li a:hover {
+    background-color: yellow;
+}
+/* End Nav Bar */
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+div.featured {
+	border-top: 10px solid #9E1B1B;
+	border-bottom: 10px solid #9E1B1B;
+	margin: 5px;
+	padding: 20px;
+}
+
+div.book1Desc {
+	height: 600px;
+}
+
+div.book2Desc {
+	height: 600px;
+}
+
+div.book3Desc {
+	height: 600px;
+}
+
+div.book4Desc {
+	height: 600px;
+}
+
+div.book5Desc {
+	height: 600px;
+}
+
+div.book6Desc {
+	height: 600px;
+}
+
+div.book7Desc {
+	height: 600px;
+}
